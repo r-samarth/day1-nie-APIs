@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="vote">
+        <h1 style="color: white;" >Vote for pands </h1>
+        <input type="text" placeholder="Enter your name" id="name">
+        <input type="number" placeholder="age" id="age">
+        
+        <select id="panda" name="panda">
+            <option value="pl">Panda land </option>
+            <option value="other">Other </option>
+            <option selected value="other">Select your country  </option>
+        </select>
+        <button onclick="vote()">Submit</button>
+        
+        <p  style="color: white; background-color: black;" id="ans">Here you will get the answere</p>
+    </div>
+    <script src="vote.js"></script>
+</body>
+</html>
