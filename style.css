@@ -1,0 +1,14 @@
+img{
+    border: 2px solid black;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    border-radius: 50%;
+
+}
+body{
+    background-color: rgb(128, 0,32);
+}
+h3,h5,h1{
+    color: burlywood;
+}
