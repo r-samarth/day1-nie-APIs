@@ -32,3 +32,34 @@ div[class="box"]{
 #div3{
     background-color: yellow;
 }
+#div1:hover{
+    background-color: antiquewhite;
+    box-shadow: 1px 0 25px;
+}
+#div2:hover{
+    background-color: antiquewhite;
+    box-shadow: 1px 0 25px;
+}
+#div3:hover{
+    background-color: antiquewhite;
+    box-shadow: 1px 0 25px;
+}
+form{
+    border: 3px solid burlywood;
+    width: 700px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(10, 0,12,.5);
+    backdrop-filter: blur(10px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    width: 76%;
+    height: 25%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
