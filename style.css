@@ -4,11 +4,31 @@ img{
     width: 500px;
     margin: auto;
     border-radius: 50%;
+    border: 10px double black;
 
 }
 body{
     background-color: rgb(128, 0,32);
+    margin: 0px;
 }
-h3,h5,h1{
+h3,h5,h1,li,ol,h2,table{
     color: burlywood;
+}
+div[class="box"]{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px ;
+    padding: 7px;
+
+}
+#div1{
+    background-color: blue;
+}
+#div2{
+    background-color: green;
+}
+#div3{
+    background-color: yellow;
 }
